@@ -7,17 +7,17 @@
 \*------------------------------------*/
 
 :root {
-    /* colors */
-    --color-front: #0F3557;
-    --color-back: #CCE7FF;
-    /* opacity */
-    --opacity-special: 60%
-    /* transitions */
+  /* colors */
+  --color-front: #0f3557;
+  --color-back: #cce7ff;
+  /* opacity */
+  --opacity-special: 60%;
+  /* transitions */
 }
 
 .is-night {
-    --color-front: #CCE7FF;
-    --color-back: #0F3557;
+  --color-front: #cce7ff;
+  --color-back: #0f3557;
 }
 
 /*------------------------------------*\
@@ -31,21 +31,21 @@
 */
 
 html {
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: "Work Sans", Helvetica, arial, sans-serif;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: var(--color-back);
-    color: var(--color-front);
-    font-feature-settings: "zero" 1;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Work Sans', Helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-back);
+  color: var(--color-front);
+  font-feature-settings: 'zero' 1;
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /*
@@ -56,15 +56,15 @@ html {
 */
 
 ::-moz-selection {
-    background: red;
-    color: white;
-    text-shadow: none;
+  background: red;
+  color: white;
+  text-shadow: none;
 }
 
 ::selection {
-    background: red;
-    color: white;
-    text-shadow: none;
+  background: red;
+  color: white;
+  text-shadow: none;
 }
 
 /*------------------------------------*\
@@ -78,8 +78,8 @@ Default markup for images to make them responsive
 */
 
 img {
-    max-width: 100%;
-    vertical-align: top;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 /*
@@ -91,34 +91,34 @@ img {
 h1,
 h2,
 h3 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 h1 {
-    font-size: 36px;
-    line-height: 48px;
-    margin: 0 0 24px;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0 0 24px;
 }
 
 h2 {
-    font-size: 32px;
-    line-height: 40px;
-    margin: 0 0 24px;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0 0 24px;
 }
 
 h3 {
-    font-size: 26px;
-    line-height: 32px;
-    margin: 0 0 24px;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 h4,
 h5,
 h6 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    margin: 0 0 24px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0 0 24px;
 }
 
 p,
@@ -128,73 +128,73 @@ dl,
 table,
 address,
 figure {
-    margin: 0 0 24px;
+  margin: 0 0 24px;
 }
 
 ul,
 ol {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 li ul,
 li ol {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 blockquote {
-    font-style: normal;
-    font-size: 23px;
-    line-height: 32px;
-    margin: 0 0 24px;
+  font-style: normal;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0 0 24px;
 }
 
 blockquote * {
-    font-size: inherit;
-    line-height: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 figcaption {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 8px;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    background: LightGrey;
-    margin: 0 0 24px;
+  border: 0;
+  height: 1px;
+  background: LightGrey;
+  margin: 0 0 24px;
 }
 
 a {
-    color: red;
-    outline-color: red;
-    outline-width: medium;
-    outline-offset: 2px;
+  color: red;
+  outline-color: red;
+  outline-width: medium;
+  outline-offset: 2px;
 }
 
 a:visited,
 a:active {
-    color: red;
+  color: red;
 }
 
 a:hover,
 a:focus {
-    color: red;
+  color: red;
 }
 
 label,
 input {
-    display: block;
+  display: block;
 }
 
 select {
-    width: 100%;
+  width: 100%;
 }
 
 input::placeholder {
-    color: gray;
+  color: gray;
 }
 
 /*------------------------------------*\
@@ -208,26 +208,26 @@ input::placeholder {
 */
 
 .o-button-reset {
-    border: none;
-    margin: 0;
-    padding: 0;
-    width: auto;
-    overflow: visible;
-    background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
 
-    /* inherit font & color from ancestor */
-    color: inherit;
-    font: inherit;
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
 
-    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
-    line-height: normal;
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
 
-    /* Corrects font smoothing for webkit */
-    -webkit-font-smoothing: inherit;
-    -moz-osx-font-smoothing: inherit;
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
 
-    /* Corrects inability to style clickable `input` types in iOS */
-    -webkit-appearance: none;
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
 }
 
 /*
@@ -237,14 +237,14 @@ input::placeholder {
 */
 
 .o-hide-accessible {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 /*------------------------------------*\
@@ -258,17 +258,24 @@ input::placeholder {
 */
 
 .c-app {
-    max-width: 400px;
-    /* plaats alles in de midden */
-    margin-left: auto;
-    margin-right: auto;
-    /* zodat de tekst niet tegen de rand plakt in mobile */
-    padding: 32px;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 400px;
+  /* plaats alles in de midden */
+  margin-left: auto;
+  margin-right: auto;
+  /* zodat de tekst niet tegen de rand plakt in mobile */
+  padding: 32px;
+
+  /* zorgt dat alles beneden staat */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .c-app__summary {
-    font-size: 28px;
-    line-height: 40px;
+  font-size: 28px;
+  line-height: 40px;
 }
 
 /*
@@ -278,10 +285,12 @@ input::placeholder {
 */
 
 .c-logo {
-    font-size: 16px;
-    /* Om verticaal het logo en de teksts op dezelfde hoogte te plaatsen */
-    display: flex;
-    align-items: center;
+  font-size: 16px;
+  /* Om verticaal het logo en de teksts op dezelfde hoogte te plaatsen */
+  display: flex;
+  align-items: center;
+  /* zorgt dat de titel vanboven staat */
+  margin-bottom: auto;
 }
 
 /*
@@ -291,14 +300,14 @@ input::placeholder {
 */
 
 .c-sun {
-    width: 22px;
-    height: 22px;
-    fill: var(--color-front);
+  width: 22px;
+  height: 22px;
+  fill: var(--color-front);
 }
 
 .c-logo .c-sun {
-    /* Als c-sun in c-logo zit */
-    margin-right: 8px;
+  /* Als c-sun in c-logo zit */
+  margin-right: 8px;
 }
 
 /*
@@ -314,61 +323,57 @@ input::placeholder {
 */
 
 .c-horizon__line {
-    /* height: 1px; */
-    /* width: 400px; */
-    /* om de lijn te tekenen */
-    border-top: 1px solid var(--color-front);
-    /* plaats tussen de lijn en de tijdstippen */
-    padding-top: 7px;
-    /* plaats tussen de lijn en de tijdstippen en de tekst onderaan */
-    margin-bottom: 30px;
-    /* om de tijdstippen aan de uiteinden te plaatsen */
-    display:flex;
-    justify-content: space-between;
-
+  /* height: 1px; */
+  /* width: 400px; */
+  /* om de lijn te tekenen */
+  border-top: 1px solid var(--color-front);
+  /* plaats tussen de lijn en de tijdstippen */
+  padding-top: 7px;
+  /* plaats tussen de lijn en de tijdstippen en de tekst onderaan */
+  margin-bottom: 30px;
+  /* om de tijdstippen aan de uiteinden te plaatsen */
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
 }
 
 .c-horizon__time {
-    font-size: 12px;
-    line-height: 14px;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .c-horizon__sky-wrapper {
-    position: relative;
-    height: 200px;
-    /* hiermee kan je de zon laten verdwijnen als hij ondergaat */
-    overflow: hidden;
-    padding: 22px 40px; /*  22px --> margin-bottom + ::before height, 40px --> breedte van component */
+  position: relative;
+  height: 200px;
+  /* hiermee kan je de zon laten verdwijnen als hij ondergaat */
+  overflow: hidden;
+  padding: 22px 40px; /*  22px --> margin-bottom + ::before height, 40px --> breedte van component */
 }
 
 .c-horizon__sky {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 .c-horizon__sun {
-    position: absolute;
-    display: flex;
-    /* zorg dat zon en tijd onder elkaar staan */
-    flex-direction: column;
-    /* zet alles in het midden zowel horizontaal en verticaal */
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    transform: translateY(22px);
+  position: absolute;
+  display: flex;
+  /* zorg dat zon en tijd onder elkaar staan */
+  flex-direction: column;
+  /* zet alles in het midden zowel horizontaal en verticaal */
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  transform: translateY(22px);
 }
 
 .c-horizon__sun::before {
-    content: attr(data-time);
-    font-size: 12px;
-    line-height: 14px;
-    display: block;
-    margin-bottom: 8px;
-    justify-content: center;
-}
-
-.c-horizon {
-    margin-top: 50%;
+  content: attr(data-time);
+  font-size: 12px;
+  line-height: 14px;
+  display: block;
+  margin-bottom: 8px;
+  justify-content: center;
 }
 
 /*------------------------------------*\
@@ -381,7 +386,7 @@ input::placeholder {
 */
 
 .u-muted {
-    opacity: var(--opacity-special);
+  opacity: var(--opacity-special);
 }
 
 /*------------------------------------*\
@@ -406,61 +411,61 @@ input::placeholder {
 */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        /* Black prints faster:
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
         http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-    /*
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: ' (' attr(href) ')';
+  }
+  abbr[title]:after {
+    content: ' (' attr(title) ')';
+  }
+  /*
     * Don't show links that are fragment identifiers,
     * or use the `javascript:` pseudo protocol
     */
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-    /*
+  a[href^='#']:after,
+  a[href^='javascript:']:after {
+    content: '';
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
     * Printing Tables:
     * http://css-discuss.incutio.com/wiki/Printing_Tables
     */
-    thead {
-        display: table-header-group;
-    }
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
