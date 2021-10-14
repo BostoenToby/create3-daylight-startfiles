@@ -13,6 +13,8 @@
   /* opacity */
   --opacity-special: 60%;
   /* transitions */
+  --transition-duration: 1.5s;
+  --transition-easing: cubic-bezier(0.25, 0.46, )
 }
 
 .is-night {
@@ -303,6 +305,9 @@ input::placeholder {
   width: 22px;
   height: 22px;
   fill: var(--color-front);
+  transition-property: fill;
+  transition-duration: calc(var(--transition-duration) / 2);
+  transition-timing-function: var(--transition-easing);
 }
 
 .c-logo .c-sun {
@@ -358,6 +363,8 @@ input::placeholder {
 .c-horizon__sun {
   position: absolute;
   display: flex;
+  left: var(--local-sun-position-left);
+  bottom: var(--local-sun-position-bottom);
   /* zorg dat zon en tijd onder elkaar staan */
   flex-direction: column;
   /* zet alles in het midden zowel horizontaal en verticaal */
